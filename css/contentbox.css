@@ -1,0 +1,166 @@
+.contentbox {
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(100px);
+  box-shadow: 0px 0px 50px 3px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.contentbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 50px;
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(100px);
+  box-shadow: 0px 0px 50px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+  height: auto;
+  justify-content: space-between;
+  margin: 0px 0px 300px 0px;
+}
+
+.contentbox .title {
+  margin-top: 20px;
+  font-size: 80px;
+}
+.contentbox .content {
+  margin: 50px 25px;
+  font-size: 20px;
+  width: 100%;
+}
+.contentbox .foot,
+.mystory_contentbox .foot {
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(100px);
+  box-shadow: 0px 0px 50px 3px rgba(0, 0, 0, 0.2);
+  padding: 5px 0px;
+  border-radius: 20px;
+  font-weight: 600;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+  opacity: 0.7;
+  margin-bottom: 20px;
+}
+.content p {
+  text-align: center;
+  padding: 3px;
+}
+
+.mbticontent_mbti {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 80px;
+}
+.mbticontent_mbti p {
+  font-family: "Noto Serif", serif;
+  margin: 20px 40px;
+  box-sizing: border-box;
+}
+.mbticontent_content {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mbticontent_content_title {
+  background-color: rgba(191, 187, 187, 0.7);
+  height: 40px;
+  width: 300px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mbticontent_content_title h1 {
+  font-weight: 600;
+}
+.mbticontent_content_main {
+  width: 100%;
+  text-align: center;
+  margin: 25px 0px;
+}
+.mbticontent_content_main p {
+  line-height: 1.3;
+}
+.fa_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fa_content h1 {
+  font-size: 60px;
+}
+.fa_item {
+  margin: 30px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.game_content,
+.sports_content,
+.other_content {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.game_content p,
+.sports_content p,
+.other_content p {
+  font-size: 20px;
+  line-height: 1.3;
+  margin-left: 15px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.sports_content p {
+  padding-top: 30px;
+  line-height: 1.5;
+}
+.game_content img,
+.other_content img {
+  display: block;
+  background-color: initial;
+  width: 50%;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+.sports_video {
+  width: 300px;
+  height: auto;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+.sports_content {
+  width: 100%;
+}
+.noinsta {
+  text-align: center;
+}
+.noinsta p {
+  line-height: 1.4;
+}
+.link {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  font-size: 24px;
+}
+.link p {
+  background-color: rgba(191, 187, 187, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+}
+.link a {
+  text-decoration: none;
+  color: black;
+}

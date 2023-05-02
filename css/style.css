@@ -1,0 +1,31 @@
+@import "reset.css";
+@import "header.css";
+@import "contentbox.css";
+@import "intro.css";
+@import "mystory.css";
+@import "list.css";
+@import "myphoto.css";
+html,
+body {
+  height: 800vh;
+  width: 100%;
+  font-family: "Asap Condensed", sans-serif;
+  background: linear-gradient(180deg, #22c1c3, #fdbb2d, #ff9966, #ff5e62);
+  animation: bodyColor 10s ease infinite;
+}
+@keyframes bodyColor {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

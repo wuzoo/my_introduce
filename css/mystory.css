@@ -1,0 +1,43 @@
+.mystory_contentbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffd194;
+  box-shadow: 0px 0px 50px 3px rgba(0, 0, 0, 0.2);
+  width: 50%;
+  border-radius: 50px;
+  height: auto;
+  justify-content: space-between;
+  margin-bottom: 300px;
+}
+.mystory_contentbox h1 {
+  font-size: 70px;
+  font-family: "Asap Condensed", sans-serif;
+  margin-top: 30px;
+}
+.mystory_content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.iframe_container {
+  width: 100%;
+  border-radius: 50px;
+  background-color: rgba(220, 206, 181, 1);
+  backdrop-filter: blur(100px);
+  height: 500px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.mystory {
+  width: 100%;
+  height: 400px;
+}
+.mystory::-webkit-scollbar {
+  overflow: scroll;
+  display: block;
+}
+.mystory::-webkit-scrollbar:horizontal {
+  display: none;
+}
