@@ -9,19 +9,30 @@
   bottom: 20px;
   left: 100px;
   z-index: 99;
-  background-color: rgba(255, 255, 255, 0.3);
-  border-radius: 80px;
   transition: all 0.4s cubic-bezier(0, 0.5, 0.9, 1);
 }
-.myphoto img {
-  width: 300px;
-  height: 300px;
-  border-radius: 30%;
-  margin: 20px 40px;
-}
-.header_myphotos:hover {
-  font-weight: 600;
+.myphoto {
+  transform: scale(0) translateX(100%) translateY(-100%);
+  width: 80%;
+  display: flex;
+  align-items: center;
+  height: 660px;
+  background: url("../img/imglist.png");
+  background-size: 240% 800px;
+  border-radius: 80px;
+  animation: slide 10s infinite ease;
 }
 .header_myphotos:hover + .myphoto {
   transform: scale(1) translateX(0) translateY(0);
+}
+@keyframes slide {
+  0% {
+    background-position: 0% 37%;
+  }
+  50% {
+    background-position: 100% 37%;
+  }
+  100% {
+    background-position: 0% 37%;
+  }
 }
