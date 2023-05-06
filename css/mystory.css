@@ -8,7 +8,8 @@
   border-radius: 50px;
   height: auto;
   justify-content: space-between;
-  margin-bottom: 300px;
+  margin: 200px 0px;
+  scroll-snap-align: start;
 }
 .mystory_contentbox h1 {
   font-size: 70px;

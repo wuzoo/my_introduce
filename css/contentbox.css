@@ -3,6 +3,7 @@
   backdrop-filter: blur(100px);
   box-shadow: 0px 0px 50px 3px rgba(0, 0, 0, 0.2);
   z-index: 1;
+  scroll-snap-align: start;
 }
 
 .contentbox {
@@ -17,7 +18,7 @@
   border-radius: 50px;
   height: auto;
   justify-content: space-between;
-  margin: 0px 0px 300px 0px;
+  margin: 200px 0px;
 }
 
 .contentbox .title {

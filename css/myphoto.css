@@ -13,26 +13,43 @@
 }
 .myphoto {
   transform: scale(0) translateX(100%) translateY(-100%);
-  width: 80%;
+  width: 60%;
   display: flex;
   align-items: center;
   height: 660px;
   background: url("../img/imglist.png");
-  background-size: 240% 800px;
+  background-position-y: -120px;
+  background-size: 400% 150%;
+  background-attachment: fixed;
   border-radius: 80px;
-  animation: slide 10s infinite ease;
+  animation: listani 10s infinite ease;
 }
 .header_myphotos:hover + .myphoto {
   transform: scale(1) translateX(0) translateY(0);
 }
-@keyframes slide {
+@keyframes listani {
   0% {
-    background-position: 0% 37%;
+    background-position-x: 0px;
   }
-  50% {
-    background-position: 100% 37%;
+  17% {
+    background-position-x: 17%;
+  }
+  34% {
+    background-position-x: 34%;
+  }
+  51% {
+    background-position-x: 51%;
+  }
+  68% {
+    background-position-x: 68%;
+  }
+  85% {
+    background-position-x: 85%;
   }
   100% {
-    background-position: 0% 37%;
+    background-position-x: 100%;
+  }
+  to {
+    background-position-x: 0%;
   }
 }
